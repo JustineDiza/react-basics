@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/JustineDiza/webpack-basics/issues"
   },
-  "homepage": "https://github.com/JustineDiza/webpack-basics#readme"
+  "homepage": "https://github.com/JustineDiza/webpack-basics#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
 }
