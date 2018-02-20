@@ -1,1 +1,3 @@
-console.log('module1.js');
+var $ = require('jQuery');
+
+$('h1').html('jQuery is in ACTION!');
