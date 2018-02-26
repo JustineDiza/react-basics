@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 class Layout extends React.Component {
 	constructor() {
 		super(); // Pre-requisite whenever you have React.Component extension
-		this.getHobbies = 'write poems.';
+		this.getHobbies = 'write poems and listen to Owl City music.';
 	}
 
 	// Creating methods in a class
