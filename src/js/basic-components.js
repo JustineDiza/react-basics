@@ -13,7 +13,6 @@ class Layout extends React.Component {
 	}
 
 	render() {
-		const name = 'Justine';
 		return (
 			// JSX must be wrapped in an enclosing tag, only one parent DOM element should appear
 			<div>
