@@ -2,8 +2,8 @@
   "name": "react",
   "version": "1.0.0",
   "description": "Learning the basics of webpack",
-  "main": "index.html",
-   "dependencies": {
+  "main": "webpack.config.js",
+  "dependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
@@ -18,14 +18,16 @@
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^2.0.8"
+  },
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JustineDiza/webpack-basics.git"
+    "url": "git+https://github.com/JustineDiza/react-basics.git"
   },
   "keywords": [
     "tutorial",
@@ -34,10 +36,7 @@
   "author": "Justine Rianne Diza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JustineDiza/webpack-basics/issues"
+    "url": "https://github.com/JustineDiza/react-basics/issues"
   },
-  "homepage": "https://github.com/JustineDiza/webpack-basics#readme",
-  "dependencies": {
-    "lodash": "^4.17.5"
-  }
+  "homepage": "https://github.com/JustineDiza/react-basics#readme"
 }
