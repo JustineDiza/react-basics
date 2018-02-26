@@ -3,8 +3,9 @@ import ReactDOM from "react-dom";
 
 class Layout extends React.Component {
 	render() {
+		const name = "Justine";
 		return (
-			<h1>It's working!</h1>
+			<h1>It's {name}!</h1>
 		);
 	}
 }
