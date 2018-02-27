@@ -9,8 +9,8 @@ var path = require('path');
 module.exports = {
   context: path.join(__dirname, "src"),
   devtool: debug ? "inline-sourcemap" : false,
-  //entry: "./js/scripts.js",
-  entry: "./js/basic-components.js", //<-- Basic components for React
+  entry: "./js/main-component.js", //<-- Multiple components 
+  //entry: "./js/basic-components.js", //<-- Basic components for React
   module: {
     loaders: [
       {
@@ -26,8 +26,8 @@ module.exports = {
   },
   output: {
     path: __dirname + "/src",
-    //filename: "js/scripts.min.js"
-    filename: "js/basic-components.min.js" //<-- Basic components for React
+    filename: "js/components/main-component.min.js" //<-- Multiple components 
+    //filename: "js/basic-components.min.js" //<-- Basic components for React
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
